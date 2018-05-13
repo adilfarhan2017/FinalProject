@@ -18,7 +18,15 @@ public class ServiceMain {
         Injector injector = Guice.createInjector(sm);
         injector.injectMembers(smain);
 
+       for (int i=0;i<10;i++){
 
+           System.out.println("Print "+i);
+       }
+        
+         for (int i=0;i<10;i++){
+
+           System.out.println("Print "+i);
+       }
        for (int i=0;i<10;i++){
 
            System.out.println("Print "+i);
