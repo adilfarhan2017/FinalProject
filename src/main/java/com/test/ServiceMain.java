@@ -18,9 +18,9 @@ public class ServiceMain {
         Injector injector = Guice.createInjector(sm);
         injector.injectMembers(smain);
 
-
-
-        System.out.println(smain.gs.serviceMethod("Hello"));
+        Module sm1 = new ServiceModule();
+          System.out.println(smain.gs.serviceMethod("Hello"));
+        System.out.println(smain.gs.serviceMethod("Hsaelloqwqwqwqwqwqwqw"));
 
 
     }
