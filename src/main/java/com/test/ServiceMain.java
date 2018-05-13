@@ -19,8 +19,9 @@ public class ServiceMain {
         injector.injectMembers(smain);
 
         Module sm1 = new ServiceModule();
+        Module sm1 = new ServiceModule();
           System.out.println(smain.gs.serviceMethod("Hello"));
-        System.out.println(smain.gs.serviceMethod("Hsaelloqwqwqwqwqwqwqw"));
+        System.out.println(smain.gs.serviceMethod("Hsaelloqasadwqwqwqwqwqwqw"));
 
 
     }
